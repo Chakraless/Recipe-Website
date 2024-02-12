@@ -1,0 +1,84 @@
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif; /* Specify a fallback font */
+}
+
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.navbar {
+    background-color: hsla(0, 80%, 67%, 0.404);
+    color: rgb(255, 255, 255);
+    padding: 2px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.navbar-title {
+    float: left;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    text-align: center; /* Align list to center */
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block; /* Make anchor tags behave like blocks for padding */
+}
+
+.navbar a:hover {
+    background-color: hsl(0, 0%, 10%);
+}
+
+.navbar li {
+    display: inline-block; /* Make list items behave like blocks for alignment */
+}
+
+.navbar h1 {
+    text-align: center;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+.recipe-title {
+    text-align: center;
+}
+
+.recipe-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.quick-recipe-item {
+    flex: 1 1 300px;
+    max-width: 300px;
+}
+
+.recipe-item-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.recipe-item-content {
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 0 0 8px 8px;
+}
