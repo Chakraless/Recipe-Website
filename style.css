@@ -1,3 +1,12 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
 body {
     margin: 0px;
     font-family: Arial, sans-serif; /* Specify a fallback font */
@@ -57,28 +66,57 @@ h1 {
 
 .recipe-title {
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
-
 .recipe-container {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
 }
 
-.quick-recipe-item {
-    flex: 1 1 300px;
-    max-width: 300px;
+.card {
+    border: 1px solid gray;
+    width: 220px;
+    margin: 10px;
+    border-radius: 15px;
 }
 
-.recipe-item-image {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    object-fit: cover;
+.card-image {
+    background-color: aqua;
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
 }
 
-.recipe-item-content {
-    background-color: #f8f8f8;
+.card h2 {
     padding: 10px;
-    border-radius: 0 0 8px 8px;
+}
+
+.card p {
+    padding: 10px;
+}
+.card a {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+
+}
+.food-1 {
+    background-image: url('https://preview.redd.it/5vltlvdi2dqy.jpg?auto=webp&s=11b3f7edb856611608a3c710f8b6faf01e0e12c9');
+}
+.food-2 {
+    background-image: url('https://www.foodandwine.com/thmb/DI29Houjc_ccAtFKly0BbVsusHc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/crispy-comte-cheesburgers-FT-RECIPE0921-6166c6552b7148e8a8561f7765ddf20b.jpg');
+}
+.food-3 {
+    background-image: url('https://www.queensleeappetit.com/wp-content/uploads/2019/05/Honey-BBQ-Chicken-Wings-2-1-480x360.jpg');
 }
