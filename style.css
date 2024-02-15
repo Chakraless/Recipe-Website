@@ -1,122 +1,120 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-
-
-
 body {
-    margin: 0px;
-    font-family: Arial, sans-serif; /* Specify a fallback font */
+  margin: 0px;
+  font-family: Arial, sans-serif; /* Specify a fallback font */
 }
 
 main {
-    margin-left: 20px;
-    margin-right: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 h3 {
-    text-align: center;
+  text-align: center;
 }
 
 .navbar {
-    background-color: hsla(0, 80%, 67%, 0.404);
-    color: rgb(255, 255, 255);
-    padding: 2px;
-    overflow: hidden;
-    margin: auto;
+  background-color: hsla(0, 80%, 67%, 0.404);
+  color: rgb(255, 255, 255);
+  padding: 2px;
+  overflow: hidden;
+  margin: auto;
 }
 
 .navbar-title {
-    float: left;
+  float: left;
 }
 
 .navbar ul {
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
-    text-align: center; /* Align list to center */
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  text-align: center; /* Align list to center */
 }
 
 .navbar a {
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-    display: inline-block; /* Make anchor tags behave like blocks for padding */
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: inline-block; /* Make anchor tags behave like blocks for padding */
 }
 
 .navbar a:hover {
-    background-color: hsl(0, 0%, 10%);
+  background-color: hsl(0, 0%, 10%);
 }
 
 .navbar li {
-    display: inline-block; /* Make list items behave like blocks for alignment */
+  display: inline-block; /* Make list items behave like blocks for alignment */
 }
 
 .navbar h1 {
-    text-align: center;
+  text-align: center;
 }
 
 h1 {
-    color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
 .recipe-title {
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+
 .recipe-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .card {
-    border: 1px solid gray;
-    width: 220px;
-    margin: 10px;
-    border-radius: 15px;
+  display: flex;
+  flex-direction: column; /* Align content vertically */
+  border: 1px solid gray;
+  width: 220px;
+  margin: 10px;
+  border-radius: 15px;
 }
 
 .card-image {
-    background-color: aqua;
-    height: 170px;
-    margin-bottom: 15px;
-    background-size: cover;
-    border-radius: 15px 15px 0 0;
+  background-color: aqua;
+  height: 170px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
 }
 
-.card h2 {
-    padding: 10px;
+.card-content {
+  flex-grow: 1; /* Allow content to grow to fill space */
 }
 
-.card p {
-    padding: 10px;
-}
 .card a {
-    background-color: black;
-    color: white;
-    padding: 15px 20px;
-    display: block;
-    text-align: center;
-    margin: 20px 50px;
-    text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0 0 15px 15px; /* Rounded corners only at the bottom */
 }
 
 .card:hover {
-    cursor: pointer;
-    transform: scale(1.03);
+  cursor: pointer;
+  transform: scale(1.03);
+}
 
-}
 .food-1 {
-    background-image: url('https://preview.redd.it/5vltlvdi2dqy.jpg?auto=webp&s=11b3f7edb856611608a3c710f8b6faf01e0e12c9');
+  background-image: url("https://preview.redd.it/5vltlvdi2dqy.jpg?auto=webp&s=11b3f7edb856611608a3c710f8b6faf01e0e12c9");
 }
+
 .food-2 {
-    background-image: url('https://www.foodandwine.com/thmb/DI29Houjc_ccAtFKly0BbVsusHc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/crispy-comte-cheesburgers-FT-RECIPE0921-6166c6552b7148e8a8561f7765ddf20b.jpg');
+  background-image: url("https://www.foodandwine.com/thmb/DI29Houjc_ccAtFKly0BbVsusHc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/crispy-comte-cheesburgers-FT-RECIPE0921-6166c6552b7148e8a8561f7765ddf20b.jpg");
 }
+
 .food-3 {
-    background-image: url('https://www.queensleeappetit.com/wp-content/uploads/2019/05/Honey-BBQ-Chicken-Wings-2-1-480x360.jpg');
+  background-image: url("https://www.queensleeappetit.com/wp-content/uploads/2019/05/Honey-BBQ-Chicken-Wings-2-1-480x360.jpg");
 }
