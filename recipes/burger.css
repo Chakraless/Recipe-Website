@@ -1,0 +1,26 @@
+.burger-header-image {
+  background-image: url("https://t3.ftcdn.net/jpg/02/94/31/20/360_F_294312040_Yw5wclSBbMXSQF42LQg74QUU9XhjfIM3.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+.burger-description {
+  border: 5px;
+  border-color: black;
+  display: inline-block;
+  padding: 10px;
+  margin: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+ul {
+    text-align: center; /* Center align the list items */
+    padding: 0; /* Remove default padding */
+}
+li {
+    display: inline-block; /* Make list items inline block */
+    text-align: left; /* Align text of list items to the left */
+    margin-left: 20px; /* Add some space between list items */
+}
